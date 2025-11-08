@@ -1,0 +1,81 @@
+import { Product } from './types';
+
+export const PRODUCTS: Product[] = [
+  {
+    id: 1,
+    name: 'Classic Denim Jacket',
+    price: '$79.99',
+    imageUrl: 'https://picsum.photos/seed/denimjacket/800/1000',
+    category: 'Jacket',
+  },
+  {
+    id: 2,
+    name: 'Vibrant Floral Blouse',
+    price: '$45.50',
+    imageUrl: 'https://picsum.photos/seed/floralblouse/800/1000',
+    category: 'Blouse',
+  },
+  {
+    id: 3,
+    name: 'Striped Cotton Tee',
+    price: '$25.00',
+    imageUrl: 'https://picsum.photos/seed/stripedtee/800/1000',
+    category: 'T-shirt',
+  },
+  {
+    id: 4,
+    name: 'Leather Moto Jacket',
+    price: '$189.90',
+    imageUrl: 'https://picsum.photos/seed/motojacket/800/1000',
+    category: 'Jacket',
+  },
+  {
+    id: 5,
+    name: 'Cozy Knit Sweater',
+    price: '$68.00',
+    imageUrl: 'https://picsum.photos/seed/knitsweater/800/1000',
+    category: 'Sweater',
+  },
+  {
+    id: 6,
+    name: 'Elegant Evening Gown',
+    price: '$250.00',
+    imageUrl: 'https://picsum.photos/seed/eveninggown/800/1000',
+    category: 'Dress',
+  },
+   {
+    id: 7,
+    name: 'Casual Plaid Shirt',
+    price: '$55.00',
+    imageUrl: 'https://picsum.photos/seed/plaidshirt/800/1000',
+    category: 'Shirt',
+  },
+  {
+    id: 8,
+    name: 'Tailored Wool Blazer',
+    price: '$150.00',
+    imageUrl: 'https://picsum.photos/seed/woolblazer/800/1000',
+    category: 'Blazer',
+  },
+  {
+    id: 9,
+    name: 'Stylish Leather Belt',
+    price: '$35.00',
+    imageUrl: 'https://picsum.photos/seed/leatherbelt/800/1000',
+    category: 'Accessories',
+  },
+  {
+    id: 10,
+    name: 'Classic Suede Loafers',
+    price: '$120.00',
+    imageUrl: 'https://picsum.photos/seed/suedeloafers/800/1000',
+    category: 'Shoes',
+  },
+  {
+    id: 11,
+    name: 'Waterproof Trench Coat',
+    price: '$220.00',
+    imageUrl: 'https://picsum.photos/seed/trenchcoat/800/1000',
+    category: 'Outerwear',
+  },
+];

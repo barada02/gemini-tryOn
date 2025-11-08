@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Gemini Virtual Try-On",
+  "description": "An application that allows users to upload a photo of themselves and virtually try on different outfits using the Gemini 2.5 Flash Image model for realistic image generation.",
+  "requestFramePermissions": []
+}
